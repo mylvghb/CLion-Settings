@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="mem" />
+      <item value="intrinsics" />
+      <item value="The stabilized version of this intrinsic is" />
       <item value="aliasing violations or data races will cause undefined behavior" />
       <item value="found reserved identifier" />
       <item value="`self` cannot be a raw identifier" />
@@ -10,8 +13,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="8" />
+        <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
   </component>
