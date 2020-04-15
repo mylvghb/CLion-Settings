@@ -1,9 +1,9 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="isWizardShown" value="true" />
-    <option name="accentColor" value="1e9ae9" />
+    <option name="accentColor" value="84ffff" />
     <option name="selectedTheme" value="DEEPOCEAN" />
     <option name="userId" value="2207c6bc:16e6e2fdc46:-8000" />
-    <option name="version" value="4.5.2" />
+    <option name="version" value="5.2.0" />
   </component>
 </application>
