@@ -1,0 +1,10 @@
+<templateSet group="Rust">
+  <template name="struct" value="#[derive(Debug)]&#10;struct $Name$ {&#10;    $FIELD$: $Type$,$END$&#10;}" description="struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+</templateSet>
