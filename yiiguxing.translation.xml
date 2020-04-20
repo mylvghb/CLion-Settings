@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="capitalize" />
       <item value="Broken" />
       <item value="// Say we're writing a game where you can buy items with tokens. All items cost // 5 tokens, and whenever you purchase items there is a processing fee of 1 // token. A player of the game will type in how many items they want to buy, // and the `total_cost` function will calculate the total number of tokens. // Since the player typed in the quantity, though, we get it as a string-- and // they might have typed anything, not just numbers! // Right now, this function isn't handling the error case at all (and isn't // handling the success case properly either). What we want to do is: // if we call the `parse` function on a string that is not a number, that // function will return a `ParseIntError`, and in that case, we want to // immediately return that error from our function and not try to multiply // and add. // There are at least two ways to implement this that are both correct-- but // one is a lot shorter! Execute `rustlings hint errors2` for hints to both ways." />
       <item value="// This function refuses to generate text to be printed on a nametag if // you pass it an empty string. It'd be nicer if it explained what the problem // was, instead of just sometimes returning `None`. The 2nd test currently // does not compile or pass, but it illustrates the behavior we would like // this function to have. // Execute `rustlings hint errors1` for hints!" />
@@ -24,8 +25,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
