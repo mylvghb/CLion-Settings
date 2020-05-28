@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="tubofish" />
+      <item value="associated" />
+      <item value="The multiplication operator *. Note that Rhs is Self by default, but this is not mandatory." />
       <item value="consider prefixing with an underscore" />
       <item value="`x` dropped here while still borrowed" />
       <item value="Extends a collection with the contents of an iterator. As this is the only method for this trait, the trait-level docs contain more details." />
@@ -34,8 +37,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="26" />
+        <entry key="CHINESE" value="27" />
+        <entry key="ENGLISH" value="28" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
