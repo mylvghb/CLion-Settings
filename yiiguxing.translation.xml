@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the square root of a number." />
+      <item value="sqrt" />
       <item value="closure is `FnOnce` because it moves the variable `a` out of its environment" />
       <item value="/// The version of the call operator that takes an immutable receiver. /// /// Instances of `Fn` can be called repeatedly without mutating state. /// /// *This trait (`Fn`) is not to be confused with [function pointers] /// (`fn`).* /// /// `Fn` is implemented automatically by closures which only take immutable /// references to captured variables or don't capture anything at all, as well /// as (safe) [function pointers] (with some caveats, see their documentation /// for more details). Additionally, for any type `F` that implements `Fn`, `&amp;F` /// implements `Fn`, too. /// /// Since both [`FnMut`] and [`FnOnce`] are supertraits of `Fn`, any /// instance of `Fn` can be used as a parameter where a [`FnMut`] or [`FnOnce`] /// is expected. /// /// Use `Fn` as a bound when you want to accept a parameter of function-like /// type and need to call it repeatedly and without mutating state (e.g., when /// calling it concurrently). If you do not need such strict requirements, use /// [`FnMut`] or [`FnOnce`] as bounds. /// /// See the [chapter on closures in *The Rust Programming Language*][book] for /// some more information on this topic. /// /// Also of note is the special syntax for `Fn` traits (e.g. /// `Fn(usize, bool) -&gt; usize`). Those interested in the technical details of /// this can refer to [the relevant section in the *Rustonomicon*][nomicon]. ///" />
       <item value="rate limit amount" />
@@ -44,8 +46,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="29" />
-        <entry key="ENGLISH" value="30" />
+        <entry key="CHINESE" value="31" />
+        <entry key="ENGLISH" value="31" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
