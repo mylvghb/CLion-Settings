@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="variant is never constructed: `Four`" />
       <item value="Returns the square root of a number." />
       <item value="sqrt" />
       <item value="closure is `FnOnce` because it moves the variable `a` out of its environment" />
@@ -47,7 +48,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="31" />
-        <entry key="ENGLISH" value="31" />
+        <entry key="ENGLISH" value="32" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
