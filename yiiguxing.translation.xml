@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="cannot find derive macro `Deserialize` in this scope" />
       <item value="Measures the time needed to execute a block of code." />
       <item value="alphabetic" />
       <item value="variant is never constructed: `Four`" />
@@ -50,7 +51,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="33" />
-        <entry key="ENGLISH" value="33" />
+        <entry key="ENGLISH" value="34" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
