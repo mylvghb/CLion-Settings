@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="micros" />
+      <item value="Transforms an iterator into a collection. collect() can take anything iterable, and turn it into a relevant collection. This is one of the more powerful methods in the standard library, used in a variety of contexts. The most basic pattern in which collect() is used is to turn one collection into another. You take a collection, call iter on it, do a bunch of transformations, and then collect() at the end. One of the keys to collect()'s power is that many things you might not think of as 'collections' actually are. For example, a String is a collection of chars. And a collection of Result&lt;T, E&gt; can be thought of as single Result&lt;Collection&lt;T&gt;, E&gt;. See the examples below for more. Because collect() is so general, it can cause problems with type inference. As such, collect() is one of the few times you'll see the syntax affectionately known as the 'turbofish': ::&lt;&gt;. This helps the inference algorithm understand specifically which collection you're trying to collect into." />
+      <item value="Creates an iterator that works like map, but flattens nested structure. The map adapter is very useful, but only when the closure argument produces values. If it produces an iterator instead, there's an extra layer of indirection. flat_map() will remove this extra layer on its own. You can think of flat_map(f) as the semantic equivalent of mapping, and then flattening as in map(f).flatten(). Another way of thinking about flat_map(): map's closure returns one item for each element, and flat_map()'s closure returns an iterator for each element." />
+      <item value="Calls a closure on each element of an iterator. This is equivalent to using a for loop on the iterator, although break and continue are not possible from a closure. It's generally more idiomatic to use a for loop, but for_each may be more legible when processing items at the end of longer iterator chains. In some cases for_each may also be faster than a loop, because it will use internal iteration on adaptors like Chain." />
       <item value="cannot find derive macro `Deserialize` in this scope" />
       <item value="Measures the time needed to execute a block of code." />
       <item value="alphabetic" />
@@ -50,8 +54,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="33" />
+        <entry key="CHINESE" value="34" />
         <entry key="ENGLISH" value="34" />
+        <entry key="FRENCH" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
