@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="stack backtrace" />
+      <item value="Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace" />
+      <item value="verbose" />
       <item value="before change" />
       <item value="change before" />
       <item value="expect" />
@@ -48,14 +51,11 @@
       <item value="mem" />
       <item value="intrinsics" />
       <item value="The stabilized version of this intrinsic is" />
-      <item value="aliasing violations or data races will cause undefined behavior" />
-      <item value="found reserved identifier" />
-      <item value="`self` cannot be a raw identifier" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="36" />
-        <entry key="ENGLISH" value="37" />
+        <entry key="CHINESE" value="39" />
+        <entry key="ENGLISH" value="40" />
         <entry key="FRENCH" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
