@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Detects boolean expressions that can be safely simplified like a || true. Does not simplify expressions if some side effects can be eliminated, such as return || true for example." />
+      <item value="Detects unnecessary mut qualifiers. This inspection can report false positives and is disabled by default." />
+      <item value="Some unstable experimental checks which are disabled by default." />
       <item value="stack backtrace" />
       <item value="Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace" />
       <item value="verbose" />
@@ -48,13 +51,10 @@
       <item value="Ok, here are a bunch of values-- some are `Strings`, some are `&amp;strs`." />
       <item value="The `current_favorite_color` function is currently returning a string slice with the `'static` lifetime. We know this because the data of the string lives in our code itself -- it doesn't come from a file or user input or another program -- so it will live as long as our program lives. But it is still a string slice. There's one way to create a `String` by converting a string slice covered in the Strings chapter of the book, and another way that uses the `From` trait." />
       <item value="measure" />
-      <item value="mem" />
-      <item value="intrinsics" />
-      <item value="The stabilized version of this intrinsic is" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="39" />
+        <entry key="CHINESE" value="40" />
         <entry key="ENGLISH" value="40" />
         <entry key="FRENCH" value="1" />
         <entry key="VIETNAMESE" value="1" />
