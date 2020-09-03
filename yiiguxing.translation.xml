@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates an iterator which can use peek to look at the next element of the iterator without consuming it. Adds a peek method to an iterator. See its documentation for more information. Note that the underlying iterator is still advanced when peek is called for the first time: In order to retrieve the next element, next is called on the underlying iterator, hence any side effects (i.e. anything other than fetching the next value) of the next method will occur." />
+      <item value="overlapping patterns" />
       <item value="take order" />
       <item value="server order" />
       <item value="take paymen" />
@@ -49,13 +51,11 @@
       <item value="// Say we're writing a game where you can buy items with tokens. All items cost // 5 tokens, and whenever you purchase items there is a processing fee of 1 // token. A player of the game will type in how many items they want to buy, // and the `total_cost` function will calculate the total number of tokens. // Since the player typed in the quantity, though, we get it as a string-- and // they might have typed anything, not just numbers! // Right now, this function isn't handling the error case at all (and isn't // handling the success case properly either). What we want to do is: // if we call the `parse` function on a string that is not a number, that // function will return a `ParseIntError`, and in that case, we want to // immediately return that error from our function and not try to multiply // and add. // There are at least two ways to implement this that are both correct-- but // one is a lot shorter! Execute `rustlings hint errors2` for hints to both ways." />
       <item value="// This function refuses to generate text to be printed on a nametag if // you pass it an empty string. It'd be nicer if it explained what the problem // was, instead of just sometimes returning `None`. The 2nd test currently // does not compile or pass, but it illustrates the behavior we would like // this function to have. // Execute `rustlings hint errors1` for hints!" />
       <item value="// Refactor this code so that instead of having `vec0` and creating the vector // in `fn main`, we instead create it within `fn fill_vec` and transfer the // freshly created vector from fill_vec to its caller. // Execute `rustlings hint move_semantics4` for hints!" />
-      <item value="semantics" />
-      <item value="implement the message variant types based on their usage below" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="44" />
-        <entry key="ENGLISH" value="45" />
+        <entry key="CHINESE" value="46" />
+        <entry key="ENGLISH" value="46" />
         <entry key="FRENCH" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
