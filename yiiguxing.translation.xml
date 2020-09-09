@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="specifier" />
       <item value="remainder" />
       <item value="remind" />
       <item value="crash and burn" />
@@ -50,12 +51,11 @@
       <item value="value captured here" />
       <item value="divisor" />
       <item value="dividend" />
-      <item value="capitalize" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="49" />
-        <entry key="ENGLISH" value="50" />
+        <entry key="CHINESE" value="50" />
+        <entry key="ENGLISH" value="51" />
         <entry key="FRENCH" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
