@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="situps" />
+      <item value="pushups" />
       <item value="match indices" />
       <item value="matches of a pattern within this string slice as well as the index that the match starts at." />
       <item value="case sensitive" />
@@ -49,14 +51,13 @@
       <item value="consider prefixing with an underscore" />
       <item value="`x` dropped here while still borrowed" />
       <item value="Extends a collection with the contents of an iterator. As this is the only method for this trait, the trait-level docs contain more details." />
-      <item value="A contiguous growable array type, written Vec&lt;T&gt; but pronounced 'vector'." />
-      <item value="exclusive range pattern syntax is experimental" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="54" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="CHINESE" value="56" />
+        <entry key="ENGLISH" value="56" />
         <entry key="FRENCH" value="1" />
+        <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
