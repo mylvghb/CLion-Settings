@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="// We want to abort on overflow instead of dropping the value. // The reference count will never be zero when this is called; // nevertheless, we insert an abort here to hint LLVM at // an otherwise missed optimization." />
+      <item value="Makes a clone of the Rc pointer. This creates another pointer to the same allocation, increasing the strong reference count." />
       <item value="situps" />
       <item value="pushups" />
       <item value="match indices" />
@@ -49,13 +51,11 @@
       <item value="associated" />
       <item value="The multiplication operator *. Note that Rhs is Self by default, but this is not mandatory." />
       <item value="consider prefixing with an underscore" />
-      <item value="`x` dropped here while still borrowed" />
-      <item value="Extends a collection with the contents of an iterator. As this is the only method for this trait, the trait-level docs contain more details." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="56" />
+        <entry key="ENGLISH" value="57" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
