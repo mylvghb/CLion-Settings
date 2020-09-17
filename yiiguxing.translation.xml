@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Attempts to upgrade the Weak pointer to an Rc, delaying dropping of the inner value if successful. Returns None if the inner value has since been dropped." />
       <item value="Guard" />
       <item value="// We want to abort on overflow instead of dropping the value. // The reference count will never be zero when this is called; // nevertheless, we insert an abort here to hint LLVM at // an otherwise missed optimization." />
       <item value="Makes a clone of the Rc pointer. This creates another pointer to the same allocation, increasing the strong reference count." />
@@ -50,11 +51,10 @@
       <item value="hide promotional message" />
       <item value="tubofish" />
       <item value="associated" />
-      <item value="The multiplication operator *. Note that Rhs is Self by default, but this is not mandatory." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="57" />
+        <entry key="CHINESE" value="58" />
         <entry key="ENGLISH" value="58" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
