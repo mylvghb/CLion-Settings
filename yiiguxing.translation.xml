@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Waits for the associated thread to finish. In terms of atomic memory orderings, the completion of the associated thread synchronizes with this function returning. In other words, all operations performed by that thread are ordered before all operations that happen after join returns. If the child thread panics, Err is returned with the parameter given to panic." />
+      <item value="Creates a new Duration from the specified number of milliseconds." />
       <item value="Creates a new Weak pointer to this allocation." />
       <item value="Attempts to upgrade the Weak pointer to an Rc, delaying dropping of the inner value if successful. Returns None if the inner value has since been dropped." />
       <item value="Guard" />
@@ -49,8 +51,6 @@
       <item value="rate limit interval seconds" />
       <item value="user understands that enabling tabnine cloud sends code to tabnine servers" />
       <item value="ignore all lsp" />
-      <item value="hide promotional message" />
-      <item value="tubofish" />
     </histories>
     <option name="languageScores">
       <map>
