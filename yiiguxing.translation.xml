@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="method returns a new number and does not mutate the original value" />
+      <item value="you probably meant `(self - other).abs()`: \ this operation is `(self - other).max(0.0)` \ except that `abs_sub` also propagates NaNs (also \ known as `fdim` in C). If you truly need the positive \ difference, consider using that expression or the C function \ `fdim`, depending on how you wish to handle NaN (please consider \ filing an issue describing your use-case too)." />
       <item value="Rust's standard collection library provides efficient implementations of the //! most common general purpose programming data structures. By using the //! standard implementations, it should be possible for two libraries to //! communicate without significant data conversion." />
       <item value="over most u" />
       <item value="We sometimes encourage you to keep trying things on a given exercise, // even after you already figured it out. If you got everything working and // feel ready for the next exercise, remove the `I AM NOT DONE` comment below." />
@@ -49,13 +51,11 @@
       <item value="Calls a closure on each element of an iterator. This is equivalent to using a for loop on the iterator, although break and continue are not possible from a closure. It's generally more idiomatic to use a for loop, but for_each may be more legible when processing items at the end of longer iterator chains. In some cases for_each may also be faster than a loop, because it will use internal iteration on adaptors like Chain." />
       <item value="cannot find derive macro `Deserialize` in this scope" />
       <item value="Measures the time needed to execute a block of code." />
-      <item value="alphabetic" />
-      <item value="variant is never constructed: `Four`" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="64" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
