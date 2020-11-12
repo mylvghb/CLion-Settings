@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="shuffle" />
+      <item value="Shuffle a mutable slice in place. For slices of length n, complexity is O(n)." />
+      <item value="system clock" />
+      <item value="monotonically nondecreasing clock" />
+      <item value="measurement" />
+      <item value="other time was not earlier than self" />
+      <item value="Instant" />
       <item value="// The shared state can only be accessed once the lock is held. // Our non-atomic increment is safe because we're the only thread // which can access the shared state when the lock is held. // // We unwrap() the return value to assert that we are not expecting // threads to ever fail while holding the lock." />
       <item value="// Spawn a few threads to increment a shared variable (non-atomically), and // let the main thread know once all increments are done. // // Here we're using an Arc to share memory among threads, and the data inside // the Arc is protected with a mutex." />
       <item value="spawn" />
@@ -44,18 +51,11 @@
       <item value="server order" />
       <item value="take paymen" />
       <item value="seat at table" />
-      <item value="dimensions" />
-      <item value="Detects boolean expressions that can be safely simplified like a || true. Does not simplify expressions if some side effects can be eliminated, such as return || true for example." />
-      <item value="Detects unnecessary mut qualifiers. This inspection can report false positives and is disabled by default." />
-      <item value="Some unstable experimental checks which are disabled by default." />
-      <item value="stack backtrace" />
-      <item value="Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace" />
-      <item value="verbose" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="72" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="79" />
+        <entry key="ENGLISH" value="80" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
