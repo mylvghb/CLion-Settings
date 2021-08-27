@@ -9,6 +9,5 @@
     <entry key="documentation.show.toolbar" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="ide.intellij.laf.enable.animation" value="true" />
-    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
   </component>
 </application>
