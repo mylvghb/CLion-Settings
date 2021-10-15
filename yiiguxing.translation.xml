@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="590" />
+    <option name="newTranslationDialogX" value="815" />
+    <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="作为" />
+      <item value="as" />
+      <item value="a's" />
+      <item value="你好" />
+      <item value="hello" />
+      <item value="ddd" />
+      <item value="fff" />
+      <item value="ffffff" />
       <item value="A Universally Unique Identifier (UUID)." />
       <item value="shuffle" />
       <item value="Shuffle a mutable slice in place. For slices of length n, complexity is O(n)." />
@@ -43,19 +54,11 @@
       <item value="sensitive" />
       <item value="specifier" />
       <item value="remainder" />
-      <item value="remind" />
-      <item value="crash and burn" />
-      <item value="Creates an iterator which can use peek to look at the next element of the iterator without consuming it. Adds a peek method to an iterator. See its documentation for more information. Note that the underlying iterator is still advanced when peek is called for the first time: In order to retrieve the next element, next is called on the underlying iterator, hence any side effects (i.e. anything other than fetching the next value) of the next method will occur." />
-      <item value="peekable" />
-      <item value="overlapping patterns" />
-      <item value="take order" />
-      <item value="server order" />
-      <item value="take paymen" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="79" />
-        <entry key="ENGLISH" value="80" />
+        <entry key="CHINESE" value="99" />
+        <entry key="ENGLISH" value="97" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -64,5 +67,13 @@
   </component>
   <component name="Cache">
     <option name="lastTrimTime" value="1634088096037" />
+  </component>
+  <component name="Settings">
+    <option name="aliTranslateSettings">
+      <app-key>
+        <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
+      </app-key>
+    </option>
+    <option name="translator" value="ALI" />
   </component>
 </application>
