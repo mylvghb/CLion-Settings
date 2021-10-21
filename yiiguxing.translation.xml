@@ -4,6 +4,10 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keyword" />
+      <item value="function requires argument type to outlive `'static`" />
+      <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function E0373 may outlive borrowed value `name` Note: function requires argument type to outlive `'static` Help: to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keywor" />
+      <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function" />
       <item value="作为" />
       <item value="as" />
       <item value="a's" />
@@ -50,15 +54,11 @@
       <item value="pushups" />
       <item value="match indices" />
       <item value="matches of a pattern within this string slice as well as the index that the match starts at." />
-      <item value="case sensitive" />
-      <item value="sensitive" />
-      <item value="specifier" />
-      <item value="remainder" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="97" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="98" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,7 +66,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1634088096037" />
+    <option name="lastTrimTime" value="1634780879733" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
