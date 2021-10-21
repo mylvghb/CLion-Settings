@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="Allocator" />
       <item value="variable moved due to use in closure" />
       <item value="to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keyword" />
       <item value="function requires argument type to outlive `'static`" />
@@ -53,12 +54,11 @@
       <item value="situps" />
       <item value="pushups" />
       <item value="match indices" />
-      <item value="matches of a pattern within this string slice as well as the index that the match starts at." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="99" />
+        <entry key="ENGLISH" value="100" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
