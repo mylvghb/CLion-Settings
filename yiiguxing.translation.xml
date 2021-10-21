@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="variable moved due to use in closure" />
       <item value="to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keyword" />
       <item value="function requires argument type to outlive `'static`" />
       <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function E0373 may outlive borrowed value `name` Note: function requires argument type to outlive `'static` Help: to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keywor" />
@@ -42,7 +43,6 @@
       <item value="Calculates the offset from a pointer (convenience for .offset(count as isize)). count is in units of T; e.g., a count of 3 represents a pointer offset of 3 * size_of::&lt;T&gt;() bytes" />
       <item value="cannot be sent between threads safely" />
       <item value="Creates a new asynchronous channel, returning the sender/receiver halves. All data sent on the Sender will become available on the Receiver in the same order as it was sent, and no send will block the calling thread (this channel has an &quot;infinite buffer&quot;, unlike sync_channel, which will block after its buffer limit is reached). recv will block until a message is available. The Sender can be cloned to send to the same channel multiple times, but only one Receiver is supported. If the Receiver is disconnected while trying to send with the Sender, the send method will return a SendError. Similarly, if the Sender is disconnected while trying to recv, the recv method will return a RecvErro" />
-      <item value="variable moved due to use in closure" />
       <item value="Waits for the associated thread to finish. In terms of atomic memory orderings, the completion of the associated thread synchronizes with this function returning. In other words, all operations performed by that thread are ordered before all operations that happen after join returns. If the child thread panics, Err is returned with the parameter given to panic." />
       <item value="Creates a new Duration from the specified number of milliseconds." />
       <item value="Creates a new Weak pointer to this allocation." />
@@ -58,7 +58,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="98" />
+        <entry key="ENGLISH" value="99" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
