@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="expect" />
       <item value="Allocator" />
       <item value="variable moved due to use in closure" />
       <item value="to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keyword" />
@@ -53,12 +54,11 @@
       <item value="Makes a clone of the Rc pointer. This creates another pointer to the same allocation, increasing the strong reference count." />
       <item value="situps" />
       <item value="pushups" />
-      <item value="match indices" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="100" />
+        <entry key="ENGLISH" value="101" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -74,6 +74,5 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
