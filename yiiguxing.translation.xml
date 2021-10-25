@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="truncate" />
+      <item value="Normally, here, one would use [`clear`] instead to correctly drop the contents and thus not leak memory." />
       <item value="expect" />
       <item value="Allocator" />
       <item value="variable moved due to use in closure" />
@@ -52,13 +54,11 @@
       <item value="Guard" />
       <item value="// We want to abort on overflow instead of dropping the value. // The reference count will never be zero when this is called; // nevertheless, we insert an abort here to hint LLVM at // an otherwise missed optimization." />
       <item value="Makes a clone of the Rc pointer. This creates another pointer to the same allocation, increasing the strong reference count." />
-      <item value="situps" />
-      <item value="pushups" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="102" />
+        <entry key="ENGLISH" value="103" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
