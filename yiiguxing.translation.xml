@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="Performs the conversion." />
       <item value="Featching" />
       <item value="truncate" />
       <item value="Normally, here, one would use [`clear`] instead to correctly drop the contents and thus not leak memory." />
@@ -53,11 +54,10 @@
       <item value="Creates a new Weak pointer to this allocation." />
       <item value="Attempts to upgrade the Weak pointer to an Rc, delaying dropping of the inner value if successful. Returns None if the inner value has since been dropped." />
       <item value="Guard" />
-      <item value="// We want to abort on overflow instead of dropping the value. // The reference count will never be zero when this is called; // nevertheless, we insert an abort here to hint LLVM at // an otherwise missed optimization." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
+        <entry key="CHINESE" value="104" />
         <entry key="ENGLISH" value="104" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
