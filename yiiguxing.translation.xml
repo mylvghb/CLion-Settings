@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="Use Result&lt;T, anyhow::Error&gt;, or equivalently anyhow::Result&lt;T&gt;, as the return type of any fallible function." />
+      <item value="This library provides anyhow::Error, a trait object based error type for easy idiomatic error handling in Rust applications." />
       <item value="creates a temporary which is freed while still in use" />
       <item value="temporary value is freed at the end of this stateme" />
       <item value="Performs the conversion." />
@@ -52,13 +54,11 @@
       <item value="cannot be sent between threads safely" />
       <item value="Creates a new asynchronous channel, returning the sender/receiver halves. All data sent on the Sender will become available on the Receiver in the same order as it was sent, and no send will block the calling thread (this channel has an &quot;infinite buffer&quot;, unlike sync_channel, which will block after its buffer limit is reached). recv will block until a message is available. The Sender can be cloned to send to the same channel multiple times, but only one Receiver is supported. If the Receiver is disconnected while trying to send with the Sender, the send method will return a SendError. Similarly, if the Sender is disconnected while trying to recv, the recv method will return a RecvErro" />
       <item value="Waits for the associated thread to finish. In terms of atomic memory orderings, the completion of the associated thread synchronizes with this function returning. In other words, all operations performed by that thread are ordered before all operations that happen after join returns. If the child thread panics, Err is returned with the parameter given to panic." />
-      <item value="Creates a new Duration from the specified number of milliseconds." />
-      <item value="Creates a new Weak pointer to this allocation." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="108" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,7 +66,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1635238266064" />
+    <option name="lastTrimTime" value="1635731480068" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -74,5 +74,6 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
