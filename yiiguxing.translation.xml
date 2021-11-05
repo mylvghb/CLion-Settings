@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="exhaustive" />
       <item value="content negotiation" />
       <item value="Decode from string reference as octets. Returns a Result containing a Vec ." />
       <item value="Use Result&lt;T, anyhow::Error&gt;, or equivalently anyhow::Result&lt;T&gt;, as the return type of any fallible function." />
@@ -53,12 +54,11 @@
       <item value="We sometimes encourage you to keep trying things on a given exercise, // even after you already figured it out. If you got everything working and // feel ready for the next exercise, remove the `I AM NOT DONE` comment below." />
       <item value="Match must be exhaustive" />
       <item value="Calculates the offset from a pointer (convenience for .offset(count as isize)). count is in units of T; e.g., a count of 3 represents a pointer offset of 3 * size_of::&lt;T&gt;() bytes" />
-      <item value="cannot be sent between threads safely" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="108" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
