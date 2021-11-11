@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="There is an implicit weak pointer owned by all the strong pointers, which ensures that the weak destructor never frees the allocation while the strong destructor is running, even if the weak pointer is stored inside the strong one." />
       <item value="Reinterprets the bits of a value of one type as another type." />
       <item value="transmute" />
       <item value="exhaustive" />
@@ -53,12 +54,11 @@
       <item value="you probably meant `(self - other).abs()`: \ this operation is `(self - other).max(0.0)` \ except that `abs_sub` also propagates NaNs (also \ known as `fdim` in C). If you truly need the positive \ difference, consider using that expression or the C function \ `fdim`, depending on how you wish to handle NaN (please consider \ filing an issue describing your use-case too)." />
       <item value="Rust's standard collection library provides efficient implementations of the //! most common general purpose programming data structures. By using the //! standard implementations, it should be possible for two libraries to //! communicate without significant data conversion." />
       <item value="over most u" />
-      <item value="We sometimes encourage you to keep trying things on a given exercise, // even after you already figured it out. If you got everything working and // feel ready for the next exercise, remove the `I AM NOT DONE` comment below." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="111" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="ENGLISH" value="112" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
