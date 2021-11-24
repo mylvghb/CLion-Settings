@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="This consumes the `String` on the left-hand side and re-uses its buffer (growing it if necessary). This is done to avoid allocating a new `String` and copying the entire contents on every operation, which would lead to O(n^2) running time when building an n-byte string by repeated concatenation." />
       <item value="Concatenating `&amp;str` slices can be done by converting the first to a `String`:" />
       <item value="If you want to keep using the first `String`, you can clone it and append to the clone instead:" />
       <item value="Concatenating two `String`s takes the first by value and borrows the second:" />
@@ -53,12 +54,11 @@
       <item value="spawn" />
       <item value="// Despite dropping gadget_owner, we're still able to print out the name // of the Owner of the Gadgets. This is because we've only dropped the // reference count object, not the Owner it wraps. As long as there are // other `Rc&lt;T&gt;` objects pointing at the same Owner, it will remain // allocated. Notice that the `Rc&lt;T&gt;` wrapper around Gadget.owner gets // automatically dereferenced for us." />
       <item value="Create Gadgets belonging to gadget_owner. To increment the reference" />
-      <item value="Create a reference counted Owner." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="119" />
-        <entry key="ENGLISH" value="120" />
+        <entry key="CHINESE" value="120" />
+        <entry key="ENGLISH" value="121" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
