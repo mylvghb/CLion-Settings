@@ -4,6 +4,12 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="Concatenating `&amp;str` slices can be done by converting the first to a `String`:" />
+      <item value="If you want to keep using the first `String`, you can clone it and append to the clone instead:" />
+      <item value="Concatenating two `String`s takes the first by value and borrows the second:" />
+      <item value="Implements the `+` operator for concatenating two strings. This consumes the `String` on the left-hand side and re-uses its buffer (growing it if necessary). This is done to avoid allocating a new `String` and copying the entire contents on every operation, which would lead to O(n^2) running time when building an n-byte string by repeated concatenation. The string on the right-hand side is only borrowed; its contents are copied into the returned `String`." />
+      <item value="This has the same behavior as the [`push_str`][String::push_str] method." />
+      <item value="Implements the `+=` operator for appending to a `String`." />
       <item value="seasonal" />
       <item value="There is an implicit weak pointer owned by all the strong pointers, which ensures that the weak destructor never frees the allocation while the strong destructor is running, even if the weak pointer is stored inside the strong one." />
       <item value="Reinterprets the bits of a value of one type as another type." />
@@ -48,17 +54,11 @@
       <item value="// Despite dropping gadget_owner, we're still able to print out the name // of the Owner of the Gadgets. This is because we've only dropped the // reference count object, not the Owner it wraps. As long as there are // other `Rc&lt;T&gt;` objects pointing at the same Owner, it will remain // allocated. Notice that the `Rc&lt;T&gt;` wrapper around Gadget.owner gets // automatically dereferenced for us." />
       <item value="Create Gadgets belonging to gadget_owner. To increment the reference" />
       <item value="Create a reference counted Owner." />
-      <item value="Constructs a new, empty Vec&lt;T&gt; with the specified capacity. The vector will be able to hold exactly capacity elements without reallocating. If capacity is 0, the vector will not allocate. It is important to note that although the returned vector has the capacity specified, the vector will have a zero length. For an explanation of the difference between length and capacity, see Capacity and reallocation." />
-      <item value="Reserves capacity for at least additional more elements to be inserted in the given Vec&lt;T&gt;. The collection may reserve more space to avoid frequent reallocations. After calling reserve, capacity will be greater than or equal to self.len() + additional. Does nothing if capacity is already sufficient." />
-      <item value="Square" />
-      <item value="method returns a new number and does not mutate the original value" />
-      <item value="you probably meant `(self - other).abs()`: \ this operation is `(self - other).max(0.0)` \ except that `abs_sub` also propagates NaNs (also \ known as `fdim` in C). If you truly need the positive \ difference, consider using that expression or the C function \ `fdim`, depending on how you wish to handle NaN (please consider \ filing an issue describing your use-case too)." />
-      <item value="Rust's standard collection library provides efficient implementations of the //! most common general purpose programming data structures. By using the //! standard implementations, it should be possible for two libraries to //! communicate without significant data conversion." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="112" />
-        <entry key="ENGLISH" value="113" />
+        <entry key="CHINESE" value="119" />
+        <entry key="ENGLISH" value="120" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -74,5 +74,6 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
