@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="455" />
     <histories>
+      <item value="Inspection and manipulation of the process's environment. This module contains functions to inspect various aspects such as environment variables, process arguments, the current directory, and various other important directories. There are several functions and structs in this module that have a counterpart ending in os. Those ending in os will return an OsString and those without will return a String." />
       <item value="This consumes the `String` on the left-hand side and re-uses its buffer (growing it if necessary). This is done to avoid allocating a new `String` and copying the entire contents on every operation, which would lead to O(n^2) running time when building an n-byte string by repeated concatenation." />
       <item value="Concatenating `&amp;str` slices can be done by converting the first to a `String`:" />
       <item value="If you want to keep using the first `String`, you can clone it and append to the clone instead:" />
@@ -53,11 +54,10 @@
       <item value="// Spawn a few threads to increment a shared variable (non-atomically), and // let the main thread know once all increments are done. // // Here we're using an Arc to share memory among threads, and the data inside // the Arc is protected with a mutex." />
       <item value="spawn" />
       <item value="// Despite dropping gadget_owner, we're still able to print out the name // of the Owner of the Gadgets. This is because we've only dropped the // reference count object, not the Owner it wraps. As long as there are // other `Rc&lt;T&gt;` objects pointing at the same Owner, it will remain // allocated. Notice that the `Rc&lt;T&gt;` wrapper around Gadget.owner gets // automatically dereferenced for us." />
-      <item value="Create Gadgets belonging to gadget_owner. To increment the reference" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="120" />
+        <entry key="CHINESE" value="121" />
         <entry key="ENGLISH" value="121" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
