@@ -66,7 +66,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1637654411072" />
+    <option name="lastTrimTime" value="1638173547155" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -74,6 +74,5 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
