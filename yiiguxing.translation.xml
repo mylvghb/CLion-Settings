@@ -1,9 +1,8 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="576" />
+    <option name="newTranslationDialogWidth" value="574" />
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
-    <option name="pinNewTranslationDialog" value="true" />
     <histories>
       <item value="In this example, the spawned thread is &quot;detached,&quot; which means that there is no way for the program to learn when the spawned thread completes or otherwise terminates.&#10;To learn when a thread completes, it is necessary to capture the JoinHandle object that is returned by the call to spawn, which provides a join method that allows the caller to wait for the completion of the spawned thread:" />
       <item value="When the main thread of a Rust program terminates, the entire program shuts down, even if other threads are still running. However, this module provides convenient facilities for automatically waiting for the termination of a thread (i.e., join)." />
