@@ -10,5 +10,12 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="rust.type.hints" />
+    <settingsMapElement>
+      <Rust.rust.type.hints>
+        <Settings>
+          <option name="showObviousTypes" value="true" />
+        </Settings>
+      </Rust.rust.type.hints>
+    </settingsMapElement>
   </component>
 </application>
