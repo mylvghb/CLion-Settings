@@ -1,9 +1,11 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="574" />
+    <option name="newTranslationDialogWidth" value="572" />
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="This function will always block the current thread if there is no data available and it's possible for more data to be sent (at least one sender still exists). Once a message is sent to the corresponding Sender (or SyncSender), this receiver will wake up and return that message.&#10;If the corresponding Sender has disconnected, or it disconnects while this call is blocking, this call will wake up and return Err to indicate that no more messages can ever be received on this channel. However, since channels are buffered, messages sent before the disconnect will still be properly received." />
+      <item value="Attempts to wait for a value on this receiver, returning an error if the corresponding channel has hung up." />
       <item value="In this example, the spawned thread is &quot;detached,&quot; which means that there is no way for the program to learn when the spawned thread completes or otherwise terminates.&#10;To learn when a thread completes, it is necessary to capture the JoinHandle object that is returned by the call to spawn, which provides a join method that allows the caller to wait for the completion of the spawned thread:" />
       <item value="When the main thread of a Rust program terminates, the entire program shuts down, even if other threads are still running. However, this module provides convenient facilities for automatically waiting for the termination of a thread (i.e., join)." />
       <item value="Fatal logic errors in Rust cause thread panic, during which a thread will unwind the stack, running destructors and freeing owned resources. While not meant as a 'try/catch' mechanism, panics in Rust can nonetheless be caught (unless compiling with panic=abort) with catch_unwind and recovered from, or alternatively be resumed with resume_unwind. If the panic is not caught the thread will exit, but the panic may optionally be detected from a different thread with join. If the main thread panics without the panic being caught, the application will exit with a non-zero exit" />
@@ -52,13 +54,11 @@
       <item value="as" />
       <item value="a's" />
       <item value="你好" />
-      <item value="hello" />
-      <item value="ddd" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="135" />
-        <entry key="ENGLISH" value="132" />
+        <entry key="CHINESE" value="137" />
+        <entry key="ENGLISH" value="133" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,7 +66,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1638173547155" />
+    <option name="lastTrimTime" value="1638769006563" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -74,6 +74,5 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
