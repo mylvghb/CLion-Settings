@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Your task is to complete this implementation and return an Ok result of inner type Color. You need to create an implementation for a tuple of three integers, an array of three integers, and a slice of integers. Note that the implementation for tuple and array will be checked at compile time, but the slice implementation needs to check the slice length! Also note that correct RGB color values must be integers in the 0..=255 range." />
       <item value="xtract the other element from the split operation and parse it into a `usize` as the age" />
       <item value="Extract the first element from the split operation and use it as the name" />
       <item value="Split the given string on the commas present in it" />
@@ -53,12 +54,11 @@
       <item value="to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keyword" />
       <item value="function requires argument type to outlive `'static`" />
       <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function E0373 may outlive borrowed value `name` Note: function requires argument type to outlive `'static` Help: to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keywor" />
-      <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE" value="138" />
+        <entry key="ENGLISH" value="139" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
