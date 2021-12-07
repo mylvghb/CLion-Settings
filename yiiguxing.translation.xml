@@ -4,6 +4,10 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="xtract the other element from the split operation and parse it into a `usize` as the age" />
+      <item value="Extract the first element from the split operation and use it as the name" />
+      <item value="Split the given string on the commas present in it" />
+      <item value="If the length of the provided string is 0, then return the default of Person" />
       <item value="This function will always block the current thread if there is no data available and it's possible for more data to be sent (at least one sender still exists). Once a message is sent to the corresponding Sender (or SyncSender), this receiver will wake up and return that message.&#10;If the corresponding Sender has disconnected, or it disconnects while this call is blocking, this call will wake up and return Err to indicate that no more messages can ever be received on this channel. However, since channels are buffered, messages sent before the disconnect will still be properly received." />
       <item value="Attempts to wait for a value on this receiver, returning an error if the corresponding channel has hung up." />
       <item value="In this example, the spawned thread is &quot;detached,&quot; which means that there is no way for the program to learn when the spawned thread completes or otherwise terminates.&#10;To learn when a thread completes, it is necessary to capture the JoinHandle object that is returned by the call to spawn, which provides a join method that allows the caller to wait for the completion of the spawned thread:" />
@@ -50,15 +54,11 @@
       <item value="function requires argument type to outlive `'static`" />
       <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function E0373 may outlive borrowed value `name` Note: function requires argument type to outlive `'static` Help: to force the closure to take ownership of `name` (and any other referenced variables), use the `move` keywor" />
       <item value="closure may outlive the current function, but it borrows `name`, which is owned by the current function" />
-      <item value="作为" />
-      <item value="as" />
-      <item value="a's" />
-      <item value="你好" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="ENGLISH" value="138" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
