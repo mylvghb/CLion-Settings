@@ -4,6 +4,9 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="This is your captain speaking." />
+      <item value="Wizard" />
+      <item value="Pilot" />
       <item value="&amp; denotes that your pattern expects a reference to an object. Hence &amp; is a part of said pattern: &amp;Foo matches different objects than Foo does.&#10;ref indicates that you want a reference to an unpacked value. It is not matched against: Foo(ref foo) matches the same objects as Foo(foo)." />
       <item value="Bind by reference during pattern matching.&#10;ref annotates pattern bindings to make them borrow rather than move. It is not a part of the pattern as far as matching is concerned: it does not affect whether a value is matched, only how it is matched.&#10;By default, match statements consume all they can, which can sometimes be a problem, when you don't really need the value to be moved and owned:&#10;let maybe_name = Some(String::from(&quot;Alice&quot;));&#10;// The variable 'maybe_name' is consumed here ...&#10;match maybe_name {&#10;    Some(n) =&gt; println!(&quot;Hello, {}&quot;, n),&#10;    _ =&gt; println!(&quot;Hello, world&quot;),&#10;}&#10;// ... and is now unavailable.&#10;println!(&quot;Hello again, {}&quot;, maybe_name.unwrap_or(&quot;world&quot;.into()));&#10;&#10;Using the ref keyword, the value is only borrowed, not moved, making it available for use after the match statement:&#10;let maybe_name = Some(String::from(&quot;Alice&quot;));&#10;// Using `ref`, the value is borrowed, not moved ...&#10;match maybe_name {&#10;    Some(ref n) =&gt; println!(&quot;Hello, {}&quot;, n),&#10;    _ =&gt; println!(&quot;Hello, world&quot;),&#10;}&#10;// ... so it's available here!&#10;println!(&quot;Hello again, {}&quot;, maybe_name.unwrap_or(&quot;world&quot;.into()));&#10;&#10;&amp; vs ref&#10;&amp; denotes that your pattern expects a reference to an object. Hence &amp; is a part of said pattern: &amp;Foo matches different objects than Foo does.&#10;ref indicates that you want a reference to an unpacked value. It is not matched against: Foo(ref foo) matches the same objects as Foo(foo)" />
       <item value="`ref` on an entire `let` pattern is discouraged, take a reference with `&amp;` instead" />
@@ -51,14 +54,11 @@
       <item value="Reinterprets the bits of a value of one type as another type." />
       <item value="transmute" />
       <item value="exhaustive" />
-      <item value="content negotiation" />
-      <item value="Decode from string reference as octets. Returns a Result containing a Vec ." />
-      <item value="Use Result&lt;T, anyhow::Error&gt;, or equivalently anyhow::Result&lt;T&gt;, as the return type of any fallible function." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="150" />
+        <entry key="ENGLISH" value="153" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
