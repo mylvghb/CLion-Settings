@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="translate" />
       <item value="This is your captain speaking." />
       <item value="Wizard" />
       <item value="Pilot" />
@@ -53,12 +54,11 @@
       <item value="There is an implicit weak pointer owned by all the strong pointers, which ensures that the weak destructor never frees the allocation while the strong destructor is running, even if the weak pointer is stored inside the strong one." />
       <item value="Reinterprets the bits of a value of one type as another type." />
       <item value="transmute" />
-      <item value="exhaustive" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="153" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,7 +66,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1638769006563" />
+    <option name="lastTrimTime" value="1640155178794" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
