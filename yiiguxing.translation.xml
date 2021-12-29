@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="superseded by" />
       <item value="`name` is moved out of person, but `age` is referenced." />
       <item value="naked" />
       <item value="shear" />
@@ -53,12 +54,11 @@
       <item value="This consumes the `String` on the left-hand side and re-uses its buffer (growing it if necessary). This is done to avoid allocating a new `String` and copying the entire contents on every operation, which would lead to O(n^2) running time when building an n-byte string by repeated concatenation." />
       <item value="Concatenating `&amp;str` slices can be done by converting the first to a `String`:" />
       <item value="If you want to keep using the first `String`, you can clone it and append to the clone instead:" />
-      <item value="Concatenating two `String`s takes the first by value and borrows the second:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="160" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE" value="161" />
+        <entry key="ENGLISH" value="162" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
