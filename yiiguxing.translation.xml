@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Returns an iterator over the chars of a string slice, and their positions. As a string slice consists of valid UTF-8, we can iterate through a string slice by char. This method returns an iterator of both these chars, as well as their byte positions. The iterator yields tuples. The position is first, the char is second." />
       <item value="Returns the fractional part of a number" />
       <item value="Imaginary portion of the complex number" />
       <item value="Real portion of the complex number" />
@@ -53,11 +54,10 @@
       <item value="This function will always block the current thread if there is no data available and it's possible for more data to be sent (at least one sender still exists). Once a message is sent to the corresponding Sender (or SyncSender), this receiver will wake up and return that message.&#10;If the corresponding Sender has disconnected, or it disconnects while this call is blocking, this call will wake up and return Err to indicate that no more messages can ever be received on this channel. However, since channels are buffered, messages sent before the disconnect will still be properly received." />
       <item value="Attempts to wait for a value on this receiver, returning an error if the corresponding channel has hung up." />
       <item value="In this example, the spawned thread is &quot;detached,&quot; which means that there is no way for the program to learn when the spawned thread completes or otherwise terminates.&#10;To learn when a thread completes, it is necessary to capture the JoinHandle object that is returned by the call to spawn, which provides a join method that allows the caller to wait for the completion of the spawned thread:" />
-      <item value="When the main thread of a Rust program terminates, the entire program shuts down, even if other threads are still running. However, this module provides convenient facilities for automatically waiting for the termination of a thread (i.e., join)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="171" />
+        <entry key="CHINESE" value="172" />
         <entry key="ENGLISH" value="171" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
