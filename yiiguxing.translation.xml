@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Waits for the associated thread to finish." />
       <item value="If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.)" />
       <item value="The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!." />
       <item value="Spawns a new thread, returning a JoinHandle for it." />
@@ -53,11 +54,10 @@
       <item value="Climate" />
       <item value="Your task is to complete this implementation and return an Ok result of inner type Color. You need to create an implementation for a tuple of three integers, an array of three integers, and a slice of integers. Note that the implementation for tuple and array will be checked at compile time, but the slice implementation needs to check the slice length! Also note that correct RGB color values must be integers in the 0..=255 range." />
       <item value="xtract the other element from the split operation and parse it into a `usize` as the age" />
-      <item value="Extract the first element from the split operation and use it as the name" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="177" />
+        <entry key="CHINESE" value="178" />
         <entry key="ENGLISH" value="172" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
