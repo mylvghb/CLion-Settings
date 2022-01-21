@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="This merge sort borrows some (but not all) ideas from TimSort, which is described in detail" />
       <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
       <item value="Waits for the associated thread to finish." />
       <item value="If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.)" />
@@ -53,12 +54,11 @@
       <item value="Don't change anything below this line (other than to enable ignored tests)." />
       <item value="This exercise demonstrates a few traits that are useful for custom error types to implement, especially so that other code can consume the custom error type more usefully. Make this compile, and make the tests pass! Execute `rustlings hint advanced_errs2` for hints. Steps: 1. Implement a missing trait so that `main()` will compile. 2. Complete the partial implementation of `From` for `ParseClimateError`. 3. Handle the missing error cases in the `FromStr` implementation for `Climate`. 4. Complete the partial implementation of `Display` for `ParseClimateError`." />
       <item value="Climate" />
-      <item value="Your task is to complete this implementation and return an Ok result of inner type Color. You need to create an implementation for a tuple of three integers, an array of three integers, and a slice of integers. Note that the implementation for tuple and array will be checked at compile time, but the slice implementation needs to check the slice length! Also note that correct RGB color values must be integers in the 0..=255 range." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="179" />
-        <entry key="ENGLISH" value="172" />
+        <entry key="ENGLISH" value="173" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
