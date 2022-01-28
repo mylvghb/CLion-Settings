@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="consider restricting type parameter `T`" />
       <item value="Raises a number to an integer power. Using this function is generally faster than using powf" />
       <item value="This merge sort borrows some (but not all) ideas from TimSort, which is described in detail" />
       <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
@@ -53,12 +54,11 @@
       <item value="This `From` implementation allows the `?` operator to work on `ParseIntError` values." />
       <item value="TODO: Complete this function by making it handle the missing error cases." />
       <item value="Don't change anything below this line (other than to enable ignored tests)." />
-      <item value="This exercise demonstrates a few traits that are useful for custom error types to implement, especially so that other code can consume the custom error type more usefully. Make this compile, and make the tests pass! Execute `rustlings hint advanced_errs2` for hints. Steps: 1. Implement a missing trait so that `main()` will compile. 2. Complete the partial implementation of `From` for `ParseClimateError`. 3. Handle the missing error cases in the `FromStr` implementation for `Climate`. 4. Complete the partial implementation of `Display` for `ParseClimateError`." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="180" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="ENGLISH" value="174" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="VIETNAMESE" value="1" />
