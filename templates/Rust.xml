@@ -104,4 +104,53 @@
       <option name="RUST_STRUCT" value="false" />
     </context>
   </template>
+  <template name="metm" value="fn $NAME$(&amp;mut self){&#10;    $END$&#10;}" description="define mutable method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="metr" value="fn $NAME$(&amp;self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="metmr" value="fn $NAME$(&amp;mut self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define mutable method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetr" value="pub fn $NAME$(&amp;self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define public method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetmr" value="pub fn $NAME$(&amp;mut self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define public mutable method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
 </templateSet>
