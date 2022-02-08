@@ -15,7 +15,7 @@
       <option name="RUST_MOD" value="true" />
     </context>
   </template>
-  <template name="leta" value="let $NAME$: $TYPE$ = $VALUE$;$END$" description="bind a value to immutable variable with type annotation" toReformat="true" toShortenFQNames="true">
+  <template name="leta" value="let $NAME$: $TYPE$ = $VALUE$;$END$" description="define immutable variable with annotated type" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
@@ -23,7 +23,7 @@
       <option name="RUST_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="letma" value="let mut $NAME$: $TYPE$ = $VALUE$;$END$" description="bind a value to mutable variable with type annotation" toReformat="true" toShortenFQNames="true">
+  <template name="letma" value="let mut $NAME$: $TYPE$ = $VALUE$;$END$" description="define mutable variable with annotated type" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
@@ -31,14 +31,14 @@
       <option name="RUST_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="let" value="let $NAME$ = $VALUE$;$END$" description="bind a value to immutable variable with type infer" toReformat="true" toShortenFQNames="true">
+  <template name="let" value="let $NAME$ = $VALUE$;$END$" description="define immutable variable" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="RUST_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="letm" value="let mut $NAME$ = $VALUE$;$END$" description="bind a value to mutable variable with type infer" toReformat="true" toShortenFQNames="true">
+  <template name="letm" value="let mut $NAME$ = $VALUE$;$END$" description="define mutable variable" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -75,6 +75,33 @@
     <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
     <context>
       <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="met" value="fn $NAME$(&amp;self){&#10;    $END$&#10;}" description="define method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetm" value="pub fn $NAME$(&amp;mut self){&#10;    $END$&#10;}" description="define public mutable method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmet" value="pub fn $NAME$(&amp;self){&#10;    $END$&#10;}" description="define public method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
     </context>
   </template>
 </templateSet>
