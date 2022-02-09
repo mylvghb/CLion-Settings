@@ -165,4 +165,36 @@
       <option name="RUST_MOD" value="true" />
     </context>
   </template>
+  <template name="enumg" value="#[derive(Debug)]&#10;enum $Name$&lt;$TYPES$&gt; {&#10;    $END$&#10;}" description="generic enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="stg" value="#[derive(Debug)]&#10;struct $Name$&lt;$TYPES$&gt; {&#10;    $FIELD$: $Type$,$END$&#10;}" description="generic struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="pstg" value="#[derive(Debug)]&#10;pub struct $Name$&lt;$TYPES$&gt; {&#10;    $FIELD$: $Type$,$END$&#10;}" description="public generic struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="penumg" value="#[derive(Debug)]&#10;pub enum $Name$&lt;$TYPES$&gt; {&#10;    $END$&#10;}" description="public generic enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
 </templateSet>
