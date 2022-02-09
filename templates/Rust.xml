@@ -197,4 +197,32 @@
       <option name="RUST_MOD" value="true" />
     </context>
   </template>
+  <template name="stt" value="#[derive(Debug)]&#10;struct $Name$($TYPES$);$END$" description="tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="sttg" value="#[derive(Debug)]&#10;struct $Name$&lt;$TYPES$&gt;($TYPES$);$END$" description="generic tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="pstt" value="#[derive(Debug)]&#10;pub struct $Name$($TYPES$);$END$" description="public tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="psttg" value="#[derive(Debug)]&#10;pub struct $Name$&lt;$TYPES$&gt;($TYPES$);$END$" description="public generic tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
 </templateSet>
