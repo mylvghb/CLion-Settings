@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="retain" />
       <item value="Gadget" />
       <item value="Note: this is an associated function, which means that you have to call it as Box::leak(b) instead of b.leak(). This is so that there is no conflict with a method on the inner type." />
       <item value="This function is mainly useful for data that lives for the remainder of the program's life. Dropping the returned reference will cause a memory leak. If this is not acceptable, the reference should first be wrapped with the Box::from_raw function producing a Box. This Box can then be dropped which will properly destroy T and release the allocated memory." />
@@ -35,7 +36,6 @@
       <item value="Retrieve the lazily-initialized thread-local random number generator, seeded by the system. Intended to be used in method chaining style, e.g. thread_rng().gen::&lt;i32&gt;(), or cached locally, e.g. let mut rng = thread_rng();. Invoked by the Default trait, making ThreadRng::default() equivalent." />
       <item value="An automatically-implemented extension trait on RngCore providing high-level generic methods for sampling values and other convenience methods. This is the primary trait to use when generating random values. Generic usage The basic pattern is fn foo&lt;R: Rng + ?Sized&gt;(rng: &amp;mut R). Some things are worth noting here: Since Rng: RngCore and every RngCore implements Rng, it makes no difference whether we use R: Rng or R: RngCore. The + ?Sized un-bounding allows functions to be called directly on type-erased references; i.e. foo(r) where r: &amp;mut dyn RngCore. Without this it would be necessary to write foo(&amp;mut r). An alternative pattern is possible: fn foo&lt;R: Rng&gt;(rng: R). This has some trade-offs. It allows the argument to be consumed directly without a &amp;mut (which is how from_rng(thread_rng()) works); also it still works directly on references (including type-erased references). Unfortunately within the function foo it is not known whether rng is a reference type or not, hence many uses of rng require an extra reference, either explicitly (distr.sample(&amp;mut rng)) or implicitly (rng.gen()); one may hope the optimiser can remove redundant references later." />
       <item value="drain" />
-      <item value="retain" />
       <item value="superseded by" />
       <item value="`name` is moved out of person, but `age` is referenced." />
       <item value="naked" />
@@ -58,7 +58,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="184" />
-        <entry key="ENGLISH" value="174" />
+        <entry key="ENGLISH" value="175" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="INDONESIAN" value="1" />
