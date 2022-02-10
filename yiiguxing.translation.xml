@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Retains only the elements specified by the predicate. In other words, remove all elements e such that f(&amp;e) returns false. This method operates in place, visiting each element exactly once in the original order, and preserves the order of the retained elements." />
       <item value="retain" />
       <item value="Gadget" />
       <item value="Note: this is an associated function, which means that you have to call it as Box::leak(b) instead of b.leak(). This is so that there is no conflict with a method on the inner type." />
@@ -53,11 +54,10 @@
       <item value="`ref` on an entire `let` pattern is discouraged, take a reference with `&amp;` instead" />
       <item value="TODO: Implement a missing trait so that `main()` below will compile. It is not necessary to implement any methods inside the missing trait." />
       <item value="1. Implement a missing trait so that `main()` will compile. 2. Complete the partial implementation of `From` for `ParseClimateError`. 3. Handle the missing error cases in the `FromStr` implementation for `Climate`. 4. Complete the partial implementation of `Display` for `ParseClimateError`." />
-      <item value="TODO: Complete this function so that it produces the correct strings for each error variant." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="184" />
+        <entry key="CHINESE" value="185" />
         <entry key="ENGLISH" value="175" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
