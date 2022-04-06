@@ -1,0 +1,79 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="564" />
+    <option name="newTranslationDialogX" value="573" />
+    <option name="newTranslationDialogY" value="325" />
+    <histories>
+      <item value="we retain our original value of 2 despite the child thread" />
+      <item value="wait for the thread to complete and bail out on panic" />
+      <item value="each thread starts out with the initial value of 1" />
+      <item value="If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.)" />
+      <item value="Spawns a new thread, returning a JoinHandle for it. The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!. If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.) This call will create a thread using default parameters of Builder, if you want to specify the stack size or the name of the thread, use this API instead. As you can see in the signature of spawn there are two constraints on both the closure given to spawn and its return value, let's explain them: The 'static constraint means that the closure and its return value must have a lifetime of the whole program execution. The reason for this is that threads can outlive the lifetime they have been created in. Indeed if the thread, and by extension its return value, can outlive their caller, we need to make sure that they will be valid afterwards, and since we can't know when it will return we need to have them valid as long as possible, that is until the end of the program, hence the 'static lifetime. The Send constraint is because the closure will need to be passed by value from the thread where it is spawned to the new thread. Its return value will need to be passed from the new thread to the thread where it is joined. As a reminder, the Send marker trait expresses that it is safe to be passed from thread to thread. Sync expresses that it is safe to have a reference be passed from thread to thread." />
+      <item value="Retains only the elements specified by the predicate. In other words, remove all elements e such that f(&amp;e) returns false. This method operates in place, visiting each element exactly once in the original order, and preserves the order of the retained elements." />
+      <item value="retain" />
+      <item value="Gadget" />
+      <item value="Note: this is an associated function, which means that you have to call it as Box::leak(b) instead of b.leak(). This is so that there is no conflict with a method on the inner type." />
+      <item value="This function is mainly useful for data that lives for the remainder of the program's life. Dropping the returned reference will cause a memory leak. If this is not acceptable, the reference should first be wrapped with the Box::from_raw function producing a Box. This Box can then be dropped which will properly destroy T and release the allocated memory." />
+      <item value="Consumes and leaks the Box, returning a mutable reference, &amp;'a mut T. Note that the type T must outlive the chosen lifetime 'a. If the type has only static references, or none at all, then this may be chosen to be 'static." />
+      <item value="Consumes and leaks the Box, returning a mutable reference, &amp;'a mut T. Note that the type T must outlive the chosen lifetime 'a. If the type has only static references, or none at all, then this may be chosen to be 'static. This function is mainly useful for data that lives for the remainder of the program's life. Dropping the returned reference will cause a memory leak. If this is not acceptable, the reference should first be wrapped with the Box::from_raw function producing a Box. This Box can then be dropped which will properly destroy T and release the allocated memory." />
+      <item value="consider restricting type parameter `T`" />
+      <item value="Raises a number to an integer power. Using this function is generally faster than using powf" />
+      <item value="This merge sort borrows some (but not all) ideas from TimSort, which is described in detail" />
+      <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
+      <item value="Waits for the associated thread to finish." />
+      <item value="The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!." />
+      <item value="Spawns a new thread, returning a JoinHandle for it." />
+      <item value="Spawns a new thread, returning a JoinHandle for it. The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!. If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.) This call will create a thread using default parameters of Builder, if you want to specify the stack size or the name of the thread, use this API instead. As you can see in the signature of spawn there are two constraints on both the closure given to spawn and its return value, let's explain them:" />
+      <item value="tail" />
+      <item value="Returns an iterator over the chars of a string slice, and their positions. As a string slice consists of valid UTF-8, we can iterate through a string slice by char. This method returns an iterator of both these chars, as well as their byte positions. The iterator yields tuples. The position is first, the char is second." />
+      <item value="Returns the fractional part of a number" />
+      <item value="Imaginary portion of the complex number" />
+      <item value="Real portion of the complex number" />
+      <item value="Complex" />
+      <item value="Saturating integer addition. Computes self + rhs, saturating at the numeric bounds instead of overflowing." />
+      <item value="Wrapping (modular) addition. Computes self + rhs, wrapping around at the boundary of the type." />
+      <item value="An iterator over the lines of a string, as string slices. Lines are ended with either a newline (\n) or a carriage return with a line feed (\r\n). The final line ending is optional. A string that ends with a final line ending will return the same lines as an otherwise identical string without a final line ending." />
+      <item value="Single-threaded reference-counting pointers. 'Rc' stands for 'Reference Counted'. The type Rc&lt;T&gt; provides shared ownership of a value of type T, allocated in the heap. Invoking clone on Rc produces a new pointer to the same allocation in the heap. When the last Rc pointer to a given allocation is destroyed, the value stored in that allocation (often referred to as &quot;inner value&quot;) is also dropped. Shared references in Rust disallow mutation by default, and Rc is no exception: you cannot generally obtain a mutable reference to something inside an Rc. If you need mutability, put a Cell or RefCell inside the Rc; see an example of mutability inside an Rc. Rc uses non-atomic reference counting. This means that overhead is very low, but an Rc cannot be sent between threads, and consequently Rc does not implement Send. As a result, the Rust compiler will check at compile time that you are not sending Rcs between threads. If you need multi-threaded, atomic reference counting, use sync::Arc. The downgrade method can be used to create a non-owning Weak pointer. A Weak pointer can be upgraded to an Rc, but this will return None if the value stored in the allocation has already been dropped. In other words, Weak pointers do not keep the value inside the allocation alive; however, they do keep the allocation (the backing store for the inner value) alive. A cycle between Rc pointers will never be deallocated. For this reason, Weak is used to break cycles. For example, a tree could have strong Rc pointers from parent nodes to children, and Weak pointers from children back to their parents. Rc&lt;T&gt; automatically dereferences to T (via the Deref trait), so you can call T's methods on a value of type Rc&lt;T&gt;. To avoid name clashes with T's methods, the methods of Rc&lt;T&gt; itself are associated functions, called using fully qualified syntax :" />
+      <item value="FIXME: Do nothing, drop is currently performed by compiler." />
+      <item value="Returns a path that, when joined onto base, yields self." />
+      <item value="failed to iterate over archive" />
+      <item value="Dice-rolling" />
+      <item value="Retrieve the lazily-initialized thread-local random number generator, seeded by the system. Intended to be used in method chaining style, e.g. thread_rng().gen::&lt;i32&gt;(), or cached locally, e.g. let mut rng = thread_rng();. Invoked by the Default trait, making ThreadRng::default() equivalent." />
+      <item value="An automatically-implemented extension trait on RngCore providing high-level generic methods for sampling values and other convenience methods. This is the primary trait to use when generating random values. Generic usage The basic pattern is fn foo&lt;R: Rng + ?Sized&gt;(rng: &amp;mut R). Some things are worth noting here: Since Rng: RngCore and every RngCore implements Rng, it makes no difference whether we use R: Rng or R: RngCore. The + ?Sized un-bounding allows functions to be called directly on type-erased references; i.e. foo(r) where r: &amp;mut dyn RngCore. Without this it would be necessary to write foo(&amp;mut r). An alternative pattern is possible: fn foo&lt;R: Rng&gt;(rng: R). This has some trade-offs. It allows the argument to be consumed directly without a &amp;mut (which is how from_rng(thread_rng()) works); also it still works directly on references (including type-erased references). Unfortunately within the function foo it is not known whether rng is a reference type or not, hence many uses of rng require an extra reference, either explicitly (distr.sample(&amp;mut rng)) or implicitly (rng.gen()); one may hope the optimiser can remove redundant references later." />
+      <item value="drain" />
+      <item value="superseded by" />
+      <item value="`name` is moved out of person, but `age` is referenced." />
+      <item value="naked" />
+      <item value="shear" />
+      <item value="noise" />
+      <item value="varable" />
+      <item value="Explicit lifetimes given in parameter types where they could be elided " />
+      <item value="Find the sum of all the squared odd numbers under 1000" />
+      <item value="translate" />
+      <item value="This is your captain speaking." />
+      <item value="Wizard" />
+      <item value="Pilot" />
+      <item value="&amp; denotes that your pattern expects a reference to an object. Hence &amp; is a part of said pattern: &amp;Foo matches different objects than Foo does.&#10;ref indicates that you want a reference to an unpacked value. It is not matched against: Foo(ref foo) matches the same objects as Foo(foo)." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="190" />
+        <entry key="ENGLISH" value="175" />
+        <entry key="FRENCH" value="1" />
+        <entry key="SWEDISH" value="1" />
+        <entry key="INDONESIAN" value="1" />
+        <entry key="VIETNAMESE" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1644827790381" />
+  </component>
+  <component name="Settings">
+    <option name="aliTranslateSettings">
+      <app-key>
+        <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
+      </app-key>
+    </option>
+  </component>
+</application>

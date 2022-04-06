@@ -1,0 +1,228 @@
+<templateSet group="Rust">
+  <template name="st" value="#[derive(Debug)]&#10;struct $Name$ {&#10;    $FIELD$: $Type$,$END$&#10;}" description="struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="pst" value="#[derive(Debug)]&#10;pub struct $Name$ {&#10;    $FIELD$: $Type$,$END$&#10;}" description="public struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="leta" value="let $NAME$: $TYPE$ = $VALUE$;$END$" description="define immutable variable with annotated type" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="letma" value="let mut $NAME$: $TYPE$ = $VALUE$;$END$" description="define mutable variable with annotated type" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="let" value="let $NAME$ = $VALUE$;$END$" description="define immutable variable" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="letm" value="let mut $NAME$ = $VALUE$;$END$" description="define mutable variable" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="fn $NAME$($ARGS$){&#10;    $END$&#10;}" description="define function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pfn" value="pub fn $NAME$($ARGS$){&#10;    $END$&#10;}" description="define public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="fnr" value="fn $NAME$($ARGS$) -&gt; $RETURN_TYPE$ {&#10;    $END$&#10;}" description="define function and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+      <option name="RUST_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pfnr" value="pub fn $NAME$($ARGS$) -&gt; $RETURN_TYPE$ {&#10;    $END$&#10;}" description="define public function and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="met" value="fn $NAME$(&amp;self){&#10;    $END$&#10;}" description="define method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetm" value="pub fn $NAME$(&amp;mut self){&#10;    $END$&#10;}" description="define public mutable method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmet" value="pub fn $NAME$(&amp;self){&#10;    $END$&#10;}" description="define public method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="metm" value="fn $NAME$(&amp;mut self){&#10;    $END$&#10;}" description="define mutable method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="metr" value="fn $NAME$(&amp;self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="metmr" value="fn $NAME$(&amp;mut self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define mutable method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetr" value="pub fn $NAME$(&amp;self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define public method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="pmetmr" value="pub fn $NAME$(&amp;mut self) -&gt; $RETURN_TYPE${&#10;    $END$&#10;}" description="define public mutable method and return" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;i32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_ATTRIBUTE" value="false" />
+      <option name="RUST_ITEM" value="true" />
+      <option name="RUST_MOD" value="false" />
+      <option name="RUST_STRUCT" value="false" />
+    </context>
+  </template>
+  <template name="enum" value="#[derive(Debug)]&#10;enum $Name$ {&#10;    $END$&#10;}" description="enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="penum" value="#[derive(Debug)]&#10;pub enum $Name$ {&#10;    $END$&#10;}" description="public enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="enumg" value="#[derive(Debug)]&#10;enum $Name$&lt;$TYPES$&gt; {&#10;    $END$&#10;}" description="generic enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="stg" value="#[derive(Debug)]&#10;struct $Name$&lt;$TYPES$&gt; {&#10;    $FIELD$: $Type$,$END$&#10;}" description="generic struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="pstg" value="#[derive(Debug)]&#10;pub struct $Name$&lt;$TYPES$&gt; {&#10;    $FIELD$: $Type$,$END$&#10;}" description="public generic struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="penumg" value="#[derive(Debug)]&#10;pub enum $Name$&lt;$TYPES$&gt; {&#10;    $END$&#10;}" description="public generic enum declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="stt" value="#[derive(Debug)]&#10;struct $Name$($TYPES$);$END$" description="tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="sttg" value="#[derive(Debug)]&#10;struct $Name$&lt;$TYPES$&gt;($TYPES$);$END$" description="generic tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="pstt" value="#[derive(Debug)]&#10;pub struct $Name$($TYPES$);$END$" description="public tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+  <template name="psttg" value="#[derive(Debug)]&#10;pub struct $Name$&lt;$TYPES$&gt;($TYPES$);$END$" description="public generic tuple struct declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="&quot;T&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_MOD" value="true" />
+    </context>
+  </template>
+</templateSet>
