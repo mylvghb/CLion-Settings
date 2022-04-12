@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="detached" />
       <item value="we retain our original value of 2 despite the child thread" />
       <item value="wait for the thread to complete and bail out on panic" />
       <item value="each thread starts out with the initial value of 1" />
@@ -53,11 +54,10 @@
       <item value="This is your captain speaking." />
       <item value="Wizard" />
       <item value="Pilot" />
-      <item value="&amp; denotes that your pattern expects a reference to an object. Hence &amp; is a part of said pattern: &amp;Foo matches different objects than Foo does.&#10;ref indicates that you want a reference to an unpacked value. It is not matched against: Foo(ref foo) matches the same objects as Foo(foo)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="190" />
+        <entry key="CHINESE" value="191" />
         <entry key="ENGLISH" value="175" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
@@ -67,7 +67,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1644827790381" />
+    <option name="lastTrimTime" value="1649752815698" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -75,5 +75,6 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
