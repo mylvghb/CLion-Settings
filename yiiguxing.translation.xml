@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="received" />
       <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
       <item value="Extracts a handle to the underlying thread" />
       <item value="Let some time pass for the thread to be spawned." />
@@ -53,12 +54,11 @@
       <item value="varable" />
       <item value="Explicit lifetimes given in parameter types where they could be elided " />
       <item value="Find the sum of all the squared odd numbers under 1000" />
-      <item value="translate" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="193" />
-        <entry key="ENGLISH" value="177" />
+        <entry key="ENGLISH" value="178" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="INDONESIAN" value="1" />
