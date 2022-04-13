@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
+      <item value="Extracts a handle to the underlying thread" />
       <item value="Let some time pass for the thread to be spawned." />
       <item value="We want to wait until the flag is set. We could just spin, but using parkunpark is more efficient." />
       <item value="detached" />
@@ -22,7 +24,6 @@
       <item value="consider restricting type parameter `T`" />
       <item value="Raises a number to an integer power. Using this function is generally faster than using powf" />
       <item value="This merge sort borrows some (but not all) ideas from TimSort, which is described in detail" />
-      <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
       <item value="Waits for the associated thread to finish." />
       <item value="The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!." />
       <item value="Spawns a new thread, returning a JoinHandle for it." />
@@ -53,11 +54,10 @@
       <item value="Explicit lifetimes given in parameter types where they could be elided " />
       <item value="Find the sum of all the squared odd numbers under 1000" />
       <item value="translate" />
-      <item value="This is your captain speaking." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="191" />
+        <entry key="CHINESE" value="193" />
         <entry key="ENGLISH" value="177" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
