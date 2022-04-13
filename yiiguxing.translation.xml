@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Let some time pass for the thread to be spawned." />
+      <item value="We want to wait until the flag is set. We could just spin, but using parkunpark is more efficient." />
       <item value="detached" />
       <item value="we retain our original value of 2 despite the child thread" />
       <item value="wait for the thread to complete and bail out on panic" />
@@ -52,13 +54,11 @@
       <item value="Find the sum of all the squared odd numbers under 1000" />
       <item value="translate" />
       <item value="This is your captain speaking." />
-      <item value="Wizard" />
-      <item value="Pilot" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="191" />
-        <entry key="ENGLISH" value="175" />
+        <entry key="ENGLISH" value="177" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="INDONESIAN" value="1" />
