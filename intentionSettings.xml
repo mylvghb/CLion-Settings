@@ -1,6 +1,5 @@
 <application>
   <component name="IntentionManagerSettings">
-    <ignoreAction name="Rust/Add format string argument" />
     <ignoreAction name="Language injection/Inject language or reference" />
   </component>
 </application>
