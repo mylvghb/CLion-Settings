@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="The area of the square is" />
       <item value="run it with hyper on localhost:3000" />
       <item value="received" />
       <item value="A barrier enables multiple threads to synchronize the beginning of some computation." />
@@ -53,12 +54,11 @@
       <item value="shear" />
       <item value="noise" />
       <item value="varable" />
-      <item value="Explicit lifetimes given in parameter types where they could be elided " />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="193" />
-        <entry key="ENGLISH" value="179" />
+        <entry key="ENGLISH" value="180" />
         <entry key="FRENCH" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="INDONESIAN" value="1" />
@@ -67,7 +67,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1651731962943" />
+    <option name="lastTrimTime" value="1652170608887" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
