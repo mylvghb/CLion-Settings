@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="fundamental" />
+      <item value="rustc paren sugar" />
       <item value="The area of the square is" />
       <item value="run it with hyper on localhost:3000" />
       <item value="received" />
@@ -52,14 +54,13 @@
       <item value="`name` is moved out of person, but `age` is referenced." />
       <item value="naked" />
       <item value="shear" />
-      <item value="noise" />
-      <item value="varable" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="193" />
-        <entry key="ENGLISH" value="180" />
+        <entry key="ENGLISH" value="181" />
         <entry key="FRENCH" value="1" />
+        <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -75,6 +76,5 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
