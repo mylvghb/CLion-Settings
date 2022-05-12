@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="325" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Failed: can not connect to remote server." />
       <item value="Input original string" />
       <item value="The string that is colored" />
       <item value="The front color of the string" />
@@ -54,12 +55,11 @@
       <item value="Retrieve the lazily-initialized thread-local random number generator, seeded by the system. Intended to be used in method chaining style, e.g. thread_rng().gen::&lt;i32&gt;(), or cached locally, e.g. let mut rng = thread_rng();. Invoked by the Default trait, making ThreadRng::default() equivalent." />
       <item value="An automatically-implemented extension trait on RngCore providing high-level generic methods for sampling values and other convenience methods. This is the primary trait to use when generating random values. Generic usage The basic pattern is fn foo&lt;R: Rng + ?Sized&gt;(rng: &amp;mut R). Some things are worth noting here: Since Rng: RngCore and every RngCore implements Rng, it makes no difference whether we use R: Rng or R: RngCore. The + ?Sized un-bounding allows functions to be called directly on type-erased references; i.e. foo(r) where r: &amp;mut dyn RngCore. Without this it would be necessary to write foo(&amp;mut r). An alternative pattern is possible: fn foo&lt;R: Rng&gt;(rng: R). This has some trade-offs. It allows the argument to be consumed directly without a &amp;mut (which is how from_rng(thread_rng()) works); also it still works directly on references (including type-erased references). Unfortunately within the function foo it is not known whether rng is a reference type or not, hence many uses of rng require an extra reference, either explicitly (distr.sample(&amp;mut rng)) or implicitly (rng.gen()); one may hope the optimiser can remove redundant references later." />
       <item value="drain" />
-      <item value="superseded by" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="194" />
-        <entry key="ENGLISH" value="185" />
+        <entry key="ENGLISH" value="187" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
