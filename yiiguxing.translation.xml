@@ -81,8 +81,5 @@
         <option name="primaryLanguage" value="CHINESE" />
       </google-translate>
     </option>
-    <option name="keepFormat" value="true" />
-    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
