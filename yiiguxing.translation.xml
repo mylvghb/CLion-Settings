@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Historically this function did not cache keys from the OS and instead simply always called `rand::thread_rng().gen()` twice. In 31356 it was discovered, however, that because we re-seed the thread-local RNG from the OS periodically that this can cause excessive slowdown when many hash maps are created on a thread. To solve this performance trap we cache the first set of randomly generated keys per-thread. Later in 36481 it was discovered that exposing a deterministic iteration order allows a form of DOS attack. To counter that we increment one of the seeds on every RandomState creation, giving every corresponding HashMap a different iteration order." />
       <item value="Waits for the associated thread to finish." />
       <item value="杀杀杀" />
       <item value="hange the type of the numeric literal from `u32` to `i32`" />
@@ -53,12 +54,11 @@
       <item value="Returns a path that, when joined onto base, yields self." />
       <item value="failed to iterate over archive" />
       <item value="Dice-rolling" />
-      <item value="Retrieve the lazily-initialized thread-local random number generator, seeded by the system. Intended to be used in method chaining style, e.g. thread_rng().gen::&lt;i32&gt;(), or cached locally, e.g. let mut rng = thread_rng();. Invoked by the Default trait, making ThreadRng::default() equivalent." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="187" />
+        <entry key="ENGLISH" value="188" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
