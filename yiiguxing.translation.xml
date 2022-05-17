@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="564" />
+    <option name="newTranslationDialogWidth" value="560" />
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
-    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Waits for the associated thread to finish." />
+      <item value="杀杀杀" />
       <item value="hange the type of the numeric literal from `u32` to `i32`" />
       <item value="Failed: can not connect to remote server." />
       <item value="Input original string" />
@@ -35,7 +36,6 @@
       <item value="consider restricting type parameter `T`" />
       <item value="Raises a number to an integer power. Using this function is generally faster than using powf" />
       <item value="This merge sort borrows some (but not all) ideas from TimSort, which is described in detail" />
-      <item value="Waits for the associated thread to finish." />
       <item value="The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!." />
       <item value="Spawns a new thread, returning a JoinHandle for it." />
       <item value="Spawns a new thread, returning a JoinHandle for it. The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!. If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.) This call will create a thread using default parameters of Builder, if you want to specify the stack size or the name of the thread, use this API instead. As you can see in the signature of spawn there are two constraints on both the closure given to spawn and its return value, let's explain them:" />
@@ -54,11 +54,10 @@
       <item value="failed to iterate over archive" />
       <item value="Dice-rolling" />
       <item value="Retrieve the lazily-initialized thread-local random number generator, seeded by the system. Intended to be used in method chaining style, e.g. thread_rng().gen::&lt;i32&gt;(), or cached locally, e.g. let mut rng = thread_rng();. Invoked by the Default trait, making ThreadRng::default() equivalent." />
-      <item value="An automatically-implemented extension trait on RngCore providing high-level generic methods for sampling values and other convenience methods. This is the primary trait to use when generating random values. Generic usage The basic pattern is fn foo&lt;R: Rng + ?Sized&gt;(rng: &amp;mut R). Some things are worth noting here: Since Rng: RngCore and every RngCore implements Rng, it makes no difference whether we use R: Rng or R: RngCore. The + ?Sized un-bounding allows functions to be called directly on type-erased references; i.e. foo(r) where r: &amp;mut dyn RngCore. Without this it would be necessary to write foo(&amp;mut r). An alternative pattern is possible: fn foo&lt;R: Rng&gt;(rng: R). This has some trade-offs. It allows the argument to be consumed directly without a &amp;mut (which is how from_rng(thread_rng()) works); also it still works directly on references (including type-erased references). Unfortunately within the function foo it is not known whether rng is a reference type or not, hence many uses of rng require an extra reference, either explicitly (distr.sample(&amp;mut rng)) or implicitly (rng.gen()); one may hope the optimiser can remove redundant references later." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="195" />
+        <entry key="CHINESE" value="196" />
         <entry key="ENGLISH" value="187" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
@@ -69,7 +68,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1652170608887" />
+    <option name="lastTrimTime" value="1652771943292" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -77,5 +76,13 @@
         <option name="appId" value="LTAI5t9Bc63LntXgXBJ1p97w" />
       </app-key>
     </option>
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="primaryLanguage" value="CHINESE" />
+      </google-translate>
+    </option>
+    <option name="keepFormat" value="true" />
+    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
