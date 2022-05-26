@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Sentinel" />
       <item value="positive" />
       <item value="flips" />
       <item value="simulate" />
@@ -53,12 +54,11 @@
       <item value="Saturating integer addition. Computes self + rhs, saturating at the numeric bounds instead of overflowing." />
       <item value="Wrapping (modular) addition. Computes self + rhs, wrapping around at the boundary of the type." />
       <item value="An iterator over the lines of a string, as string slices. Lines are ended with either a newline (\n) or a carriage return with a line feed (\r\n). The final line ending is optional. A string that ends with a final line ending will return the same lines as an otherwise identical string without a final line ending." />
-      <item value="Single-threaded reference-counting pointers. 'Rc' stands for 'Reference Counted'. The type Rc&lt;T&gt; provides shared ownership of a value of type T, allocated in the heap. Invoking clone on Rc produces a new pointer to the same allocation in the heap. When the last Rc pointer to a given allocation is destroyed, the value stored in that allocation (often referred to as &quot;inner value&quot;) is also dropped. Shared references in Rust disallow mutation by default, and Rc is no exception: you cannot generally obtain a mutable reference to something inside an Rc. If you need mutability, put a Cell or RefCell inside the Rc; see an example of mutability inside an Rc. Rc uses non-atomic reference counting. This means that overhead is very low, but an Rc cannot be sent between threads, and consequently Rc does not implement Send. As a result, the Rust compiler will check at compile time that you are not sending Rcs between threads. If you need multi-threaded, atomic reference counting, use sync::Arc. The downgrade method can be used to create a non-owning Weak pointer. A Weak pointer can be upgraded to an Rc, but this will return None if the value stored in the allocation has already been dropped. In other words, Weak pointers do not keep the value inside the allocation alive; however, they do keep the allocation (the backing store for the inner value) alive. A cycle between Rc pointers will never be deallocated. For this reason, Weak is used to break cycles. For example, a tree could have strong Rc pointers from parent nodes to children, and Weak pointers from children back to their parents. Rc&lt;T&gt; automatically dereferences to T (via the Deref trait), so you can call T's methods on a value of type Rc&lt;T&gt;. To avoid name clashes with T's methods, the methods of Rc&lt;T&gt; itself are associated functions, called using fully qualified syntax :" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="193" />
+        <entry key="ENGLISH" value="194" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
