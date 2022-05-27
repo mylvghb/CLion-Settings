@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="intrinsics" />
       <item value="Sentinel" />
       <item value="positive" />
       <item value="flips" />
@@ -53,12 +54,11 @@
       <item value="Complex" />
       <item value="Saturating integer addition. Computes self + rhs, saturating at the numeric bounds instead of overflowing." />
       <item value="Wrapping (modular) addition. Computes self + rhs, wrapping around at the boundary of the type." />
-      <item value="An iterator over the lines of a string, as string slices. Lines are ended with either a newline (\n) or a carriage return with a line feed (\r\n). The final line ending is optional. A string that ends with a final line ending will return the same lines as an otherwise identical string without a final line ending." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="194" />
+        <entry key="ENGLISH" value="195" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
