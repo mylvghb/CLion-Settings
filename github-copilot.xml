@@ -2,6 +2,7 @@
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
     <disabledLanguages>
+      <option value="Rust" />
       <option value="TOML" />
     </disabledLanguages>
     <option name="telemetryTermsAcceptedDate" value="2022-04-06T10:46:52.9692208+08:00[Asia/Shanghai]" />
