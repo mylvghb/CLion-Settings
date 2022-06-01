@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="SEVERE" />
       <item value="intrinsics" />
       <item value="Sentinel" />
       <item value="positive" />
@@ -53,11 +54,10 @@
       <item value="Real portion of the complex number" />
       <item value="Complex" />
       <item value="Saturating integer addition. Computes self + rhs, saturating at the numeric bounds instead of overflowing." />
-      <item value="Wrapping (modular) addition. Computes self + rhs, wrapping around at the boundary of the type." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
+        <entry key="CHINESE" value="197" />
         <entry key="ENGLISH" value="195" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
