@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="transpose" />
       <item value="Shift everything down to fill in that spot." />
       <item value="intrinsic" />
       <item value="We are calling the intrinsics directly to avoid function calls in the generated code as `intrinsics::copy_nonoverlapping` is a wrapper function." />
@@ -53,12 +54,11 @@
       <item value="tail" />
       <item value="Returns an iterator over the chars of a string slice, and their positions. As a string slice consists of valid UTF-8, we can iterate through a string slice by char. This method returns an iterator of both these chars, as well as their byte positions. The iterator yields tuples. The position is first, the char is second." />
       <item value="Returns the fractional part of a number" />
-      <item value="Imaginary portion of the complex number" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="197" />
-        <entry key="ENGLISH" value="198" />
+        <entry key="CHINESE" value="198" />
+        <entry key="ENGLISH" value="199" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
