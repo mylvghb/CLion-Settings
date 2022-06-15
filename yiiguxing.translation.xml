@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="This will panic or abort if we would allocate &gt; isize::MAX bytes or if the length increment would overflow for zero-sized types." />
       <item value="transpose" />
       <item value="Shift everything down to fill in that spot." />
       <item value="intrinsic" />
@@ -53,12 +54,11 @@
       <item value="Spawns a new thread, returning a JoinHandle for it. The join handle provides a join method that can be used to join the spawned thread. If the spawned thread panics, join will return an Err containing the argument given to panic!. If the join handle is dropped, the spawned thread will implicitly be detached. In this case, the spawned thread may no longer be joined. (It is the responsibility of the program to either eventually join threads it creates or detach them; otherwise, a resource leak will result.) This call will create a thread using default parameters of Builder, if you want to specify the stack size or the name of the thread, use this API instead. As you can see in the signature of spawn there are two constraints on both the closure given to spawn and its return value, let's explain them:" />
       <item value="tail" />
       <item value="Returns an iterator over the chars of a string slice, and their positions. As a string slice consists of valid UTF-8, we can iterate through a string slice by char. This method returns an iterator of both these chars, as well as their byte positions. The iterator yields tuples. The position is first, the char is second." />
-      <item value="Returns the fractional part of a number" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="198" />
-        <entry key="ENGLISH" value="199" />
+        <entry key="CHINESE" value="199" />
+        <entry key="ENGLISH" value="200" />
         <entry key="FRENCH" value="1" />
         <entry key="BENGALI" value="1" />
         <entry key="SWEDISH" value="1" />
