@@ -3,7 +3,7 @@
     <property name="created">2022-04-06T10:25:54</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2021.3.4.0.0</property>
-    <property name="modified">2022-06-20T13:17:14</property>
+    <property name="modified">2022-06-22T09:49:23</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <colors>
@@ -479,7 +479,6 @@
       <value>
         <option name="FOREGROUND" value="7fdbca" />
         <option name="EFFECT_COLOR" value="7fdbca" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
