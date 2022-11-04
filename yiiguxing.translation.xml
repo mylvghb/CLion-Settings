@@ -1,6 +1,6 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="560" />
+    <option name="newTranslationDialogWidth" value="558" />
     <option name="newTranslationDialogX" value="573" />
     <option name="newTranslationDialogY" value="325" />
     <histories>
@@ -82,6 +82,5 @@
         <option name="primaryLanguage" value="CHINESE" />
       </google-translate>
     </option>
-    <option name="translateDocumentation" value="true" />
   </component>
 </application>
